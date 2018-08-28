@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :thoughts
   resources :topics
   get 'home/index'
   
