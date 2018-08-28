@@ -2,7 +2,8 @@ Rails.application.routes.draw do
   resources :topics
   get 'home/index'
   
-  get 'home' => 'home#home'
+  get '' => 'home#index'
+  get 'topics' => 'topics#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
