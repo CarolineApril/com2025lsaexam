@@ -3,7 +3,9 @@
 one:
   content: MyText
   shared: 1
+  topics_id: 
 
 two:
   content: MyText
   shared: 1
+  topics_id: 
